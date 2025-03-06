@@ -4,8 +4,8 @@ const MyMeals = ({ text, updatingInInput, deleteMeal }) => {
   return (
     <div>
       <p>{ text }</p>
-      <MdEdit onClick = { updatingInInput }/>
-      <MdDelete onClick = { deleteMeal }/>
+      <MdEdit className="icon" onClick = { updatingInInput }/>
+      <MdDelete className="icon" onClick = { deleteMeal }/>
     </div>
   )
 }
