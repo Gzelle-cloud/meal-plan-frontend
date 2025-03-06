@@ -8,6 +8,7 @@ body {
   
 h1 {
   font-family: 'Gloria Hallelujah', cursive;
+  color: #313133;
 }
   
 input {
@@ -23,7 +24,7 @@ input {
 }
   
 button {
-  padding: 20px 50px 20px 70px;
+  padding: 20px 50px 20px 50px;
   background-color: #024d3d;
   font-family: 'Gloria Hallelujah', cursive;
   color: white;
@@ -38,8 +39,9 @@ p {
   font-family: 'Gloria Hallelujah', cursive;
   width: 600px;
   font-size: 20px;
-  color: black;
+  color: #313133;
 }
-  
-  
-  
+
+.icon {
+  color: #313133;
+}
