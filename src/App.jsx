@@ -30,14 +30,9 @@ function App() {
       />
 
       <button 
-        // disabled={!title}
-        onClick = {() => {
-          if (!title) {
-            alert("Please enter a meal name");
-            return;
-          }
+        disabled={!title}
+        onClick = {
           editing ? () => editMeal (mealId, title, setMeal, setTitle, setEditing) : () => addMeal(title, setTitle, setMeal)
-          } 
         } 
       >
         {editing ? "Edit" : "Add"}
